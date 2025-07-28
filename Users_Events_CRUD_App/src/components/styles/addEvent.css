@@ -1,0 +1,80 @@
+.invalid {
+  border-color: #ff6b6b !important;
+}
+.error {
+  color: #ff6b6b;
+  font-size: 1vw;
+  margin: 1vw;
+}
+.close {
+  cursor: pointer;
+}
+.addButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.AddEventContainer {
+  position: absolute;
+  left: 21.9vw;
+  width: 76.95vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.1vw solid gray;
+  background-color: #171717;
+}
+
+.AddData_title {
+  height: 4vw;
+  width: 100%;
+  border-bottom: 0.1vw solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.EventData {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.EventDataInput {
+  height: 2vw;
+  width: 15vw;
+  color: white;
+  font-size: 1vw;
+  background-color: #171717;
+  border: 0.1vw solid gray;
+  padding: 0.2vw;
+}
+
+.describeArea {
+  resize: none;
+  height: 5vw !important;
+  width: 46.4vw !important;
+  color: white;
+  font-size: 1vw;
+  background-color: #171717;
+  border: 0.1vw solid gray;
+  padding: 0.2vw;
+}
+
+.describeArea:focus {
+  outline: none;
+}
+
+.DataBox {
+  width: 46.9vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.EventDataInput:focus {
+  outline: none;
+}

@@ -1,0 +1,68 @@
+.EventTableContainer {
+  margin-left: 1vw;
+  height: 50vw;
+  width: 78vw;
+  background-color: #171717;
+  border: 0.1vw solid gray;
+}
+
+.addEvent {
+  font-family: sans-serif;
+  width: 100%;
+  height: 3.65vw;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1vw solid gray;
+}
+
+.addEvent img {
+  width: 2vw;
+  height: 2vw;
+  margin-left: 1vw;
+  margin-right: 34vw;
+}
+
+.addUserButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 2vw;
+  width: 2vw;
+  padding: 0;
+  background-color: #171717;
+  border: none;
+}
+
+.List {
+   height: 44.2vw;
+   overflow-y: scroll;
+   padding: 1vw;
+}
+
+.EventCard {
+  color: white;
+  font-family: sans-serif;
+  border: 0.1vw solid gray;
+  margin-bottom: 1vw;
+  padding: 1vw;
+}
+
+.EventCard h2 {
+   font-size: 2vw;
+   margin: 0;
+}
+.EventCard p {
+   font-size: 2vw;
+}
+
+.loader, .error, .empty {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1vw;
+  color: #666;
+}
+
+.addUserButton img {
+  height: 100%;
+  width: 100%;
+}

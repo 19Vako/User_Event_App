@@ -1,0 +1,31 @@
+h1 {
+  color: white;
+  font-size: 1vw;
+}
+
+.userContainer {
+  display: flex;
+  padding: 1vw;
+}
+
+.userDataContainer {
+  height: 8vw ;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 0.1vw solid gray;
+  background-color: #171717;
+}
+
+.dataContainer {
+  display: flex;
+  align-items: center;
+  padding-left: 1vw;
+}
+
+.dataContainer img {
+  height: 2vw;
+  width: 2vw;
+  margin-right: 1vw;
+}
