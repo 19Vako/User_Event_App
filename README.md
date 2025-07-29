@@ -2,7 +2,7 @@
 
 ## 📦 Вимоги
 
-- **Node.js** >= 16.x  
+- **Node.js** >= 20.x  
 - **npm** або **yarn**
 - **MongoDB** (локально або у хмарі, наприклад [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))
 
